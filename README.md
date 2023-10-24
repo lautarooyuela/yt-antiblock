@@ -1,6 +1,5 @@
 # yt-antiblock
-antiblock
-
+Instrucciones:
 1. Abrir el navegador Chrome
 2. Ir a mis extensiones para agregar el programita
 (Seguir imagenes 1 y 2 que estan en la carpeta)
