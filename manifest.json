@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube AntiBlock",
+    "description": "Cuando Youtube te bloquea automaticamente te redirige a una pagina para ver video",
+    "version": "1",
+    "icons": {
+      "128": "icon_128.png"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ]
+  }
